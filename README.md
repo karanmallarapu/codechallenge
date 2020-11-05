@@ -1,3 +1,14 @@
+# step 1: clone project #
+# step 2: npm install for dependent packages #
+# step 3: npm start #
+# opens post localhost:3000 #
+
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
