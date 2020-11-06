@@ -23,7 +23,7 @@ class Products extends Component {
     render() { 
         let products = <p style={{ textAlign: "center" }}>Something went wrong</p>
         if (!this.state.error) {
-            products = data.groups.map(product => {
+            products = data.groups.map((product) => {
                 //console.log(product);
                 return <Product key={product.id}
                     imageUrl={product.hero.href}
@@ -39,7 +39,7 @@ class Products extends Component {
                     {products}
                 </section>
                 <section>
-                    <ProductOverlay id={this.state.selectedProductId}/>
+                    <ProductOverlay id={this.state.selectedProductId} displayed="true"/>
                 </section>
             </div>
         )
